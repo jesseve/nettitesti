@@ -1,0 +1,9 @@
+﻿@model IEnumerable<WebApplication1.Models.Tilaus>
+
+@foreach(var item in Model) 
+{
+    <div>
+        <h4>@item.Nimi</h4>
+        <p>@item.Määrä</p>
+    </div>
+}
